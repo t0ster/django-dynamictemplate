@@ -1,5 +1,7 @@
 Installation
 
+pip install -e git://github.com/t0ster/django-dynamictemplate.git#egg=dynamic_template
+
 Edit your settings.py file:
 
 Add "dynamic_template.middleware.DynamicTemplateMiddleware" to your

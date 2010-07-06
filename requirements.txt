@@ -1,0 +1,6 @@
+simplejson
+-e svn+http://django-bloom.googlecode.com/svn/trunk/#egg=django-bloom
+#http://dl.dropbox.com/u/407968/packages/deviceatlas.tar.gz
+
+# You should also download deviceatlas.api from
+# http://deviceatlas.com/getAPI/python
