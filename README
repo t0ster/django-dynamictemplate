@@ -14,3 +14,8 @@ TEMPLATE_LOADERS = [
 ]
 
 Add "dynamic_template" to your INSTALLED_APPS.
+
+
+Edit your urls.py file:
+
+Add ("", include("dynamic_template.urls")), to your urlpatterns.
