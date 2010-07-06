@@ -1,0 +1,16 @@
+Installation
+
+Edit your settings.py file:
+
+Add "dynamic_template.middleware.DynamicTemplateMiddleware" to your
+MIDDLEWARE_CLASSES.
+
+Your TEMPLATE_LOADERS shoud look like this:
+
+TEMPLATE_LOADERS = [
+    "dynamic_template.loaders.load_template_source",
+    "django.template.loaders.filesystem.load_template_source",
+    "django.template.loaders.app_directories.load_template_source",
+]
+
+Add "dynamic_template" to your INSTALLED_APPS.

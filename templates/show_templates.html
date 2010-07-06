@@ -1,0 +1,9 @@
+<form action="/change-template/" method="get">
+	<label>Template: </label>
+	<select id="id_template" class="select" name="template" onchange='this.form.submit()'>
+		{% for template in templates %}
+			<option value="{{ template }}" {% if template == current %}selected{% endif %}>{{ template|capfirst }}</option>
+		{% endfor %}
+	</select>
+	<noscript><input type="submit" value="Submit"></noscript>
+</form>
